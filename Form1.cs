@@ -19,7 +19,7 @@ namespace YOUR_PRODJECT_NAME_HERE
                 MessageBox.Show("Active Key", "Success",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                DashBoard dash = new DashBoard();
+                SECOND_PAGE dash = new SECOND_PAGE();
                 dash.Show();
                 this.Hide();
             }
